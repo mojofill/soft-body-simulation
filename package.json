@@ -1,0 +1,17 @@
+{
+  "name": "softbodysim",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx tsc --project tsconfig.json && browserify ./dist/index.js > ./dist/bundle.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "browserify": "^17.0.0",
+    "typescript": "^5.0.4"
+  }
+}
